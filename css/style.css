@@ -1,0 +1,225 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(fonts.css);
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Helvetica;
+	
+}
+/*header{
+	background-image: url(../images/header_back.jpg);
+}*/
+.fix{
+	position: fixed;
+/*	right: 0;
+	top: 0;*/
+	height: auto;
+	display: block;
+	width: 100%;
+	z-index: 10;
+
+}
+.topStyle{
+	padding-top: 10px;
+    /*background: url(../images/header_back.jpg);*/
+    background-color: #384452;
+    padding-bottom: 10px;
+}
+.topicon{
+    width: 30px;
+    height: 20px;    
+    display: inline;
+}
+.topHeading{	
+    font-family: off-road;
+    font-size: 2em;
+    color: white;
+    display: inline;
+}
+.wheel{
+	position: absolute;
+	top: 1px;
+	left: 130px;
+}
+.wheelImg{
+	width: 30px;
+	height: 30px;
+}
+menu{	
+	text-align: center;
+	display: block;	
+	opacity: 1;
+}
+menu ul{
+	list-style: none;
+	display: inline-block;
+	height: 100%;
+}
+menu li{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #f39c12;
+}
+menu li a{
+	font-size: 1.2em;
+	font-family:  opensans;
+	color: white;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-limiting-function: ease-out;
+	transition-delay: initial;	
+	text-decoration: none;		
+	color: #f1c40f;		
+	padding: 4px 4px 5px 4px;
+}
+menu li a:not(.active):hover{	
+	text-decoration: none;
+	border-bottom: 1px solid #01b2fe;
+	padding-bottom: 3px;
+    color:#01b2fe;
+    /*z-index:999999;
+    position:fixed;
+		DO SLIDING FOR HOVER
+    */
+}
+/*.nombore{
+    position:relative;
+    display:inline-block;  
+    transition: all 0.3s ease-out;
+}*/
+menu li a.active{	
+	text-decoration: none;
+	color: white; 	
+	font-style: bold;
+	font-size: 1.2em;
+}
+.active{    
+	text-decoration: none;
+	font-style: bold;
+	font-size: 1.7em;
+	color: #f1c40f; 	
+}
+
+.main{
+	position: static;
+	padding-top: 80px;
+}
+.mainSearch{
+	font-family: segoeuii;
+	font-size: 1.2em;		
+	width: 85%;	
+	display: inline;
+}
+.searchIcon{
+	font-size: 1.2em;
+}
+/*.searchBtn{
+	
+	display: inline;
+}*/
+h4{
+	font-family: lato-Black;
+	font-size: 1.5em;
+}
+.moveLeft{
+	margin-left: 30px;
+}
+.padList{
+	list-style: none;
+	padding-bottom: 10px;
+}
+.requests{
+	font-family: opensans;	
+}
+.footer{
+	/*background-image: url(../images/bg-texture.jpg);*/
+	background-color: #151d26;
+}
+.special{
+	background-color: #2a3b4d;
+}
+.foot{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.social-h{
+	font-family: opensans-semibold;
+	font-size: 18px;
+	color: white;		
+}
+
+.footText{
+	font-family: segoeui;
+	color: #838b89;
+}
+.footer-icon{
+	width: 30px;
+	height: 30px;
+}
+.changedPadd{	
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+.foot-ul{
+	height: 40px;
+}
+span{
+	padding-right: 10px;
+}
+i{
+	position: relative;
+	font-size: 30px!important;
+	width: 45px;
+	height: 45px;
+	border-radius: 30px;
+	background-color: #838b89;
+	color: white;
+	margin: auto;
+}
+i::before{
+	position: absolute;
+	top: 7;
+	left: 10;
+}
+.iconPosVk::before{
+	position: absolute;
+	top: 7;
+	left: 6;
+}
+.iconPosFa::before{
+	position: absolute;
+	top: 7;
+	left: 14;
+}
+}
+.iconSize{
+	font-size: 30px;
+}
+menu .foot-ul li a{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+menu .foot-ul li a .iconPosTw:hover{
+	background-color: #01b2fe;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosVk:hover{
+	background-color: #507299;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosFa:hover{
+	background-color: #3b5998;    
+	border-bottom: none;
+}
+menu .foot-ul li a .iconPosIn:hover{
+	background-color: #7a36ad;    
+	border-bottom: none;
+}
+menu .foot-ul li a:hover{
+	border-bottom: none;
+}
