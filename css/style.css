@@ -200,26 +200,62 @@ i::before{
 .iconSize{
 	font-size: 30px;
 }
+menu .foot-ul{
+	padding-top: 15px;	
+}
 menu .foot-ul li a{
 	margin-left: 5px;
 	margin-right: 5px;
 }
-menu .foot-ul li a .iconPosTw:hover{
+menu .foot-ul li a .iconPosTw{
 	background-color: #01b2fe;    
 	border-bottom: none;
 }
-menu .foot-ul li a .iconPosVk:hover{
+menu .foot-ul li a .iconPosVk{
 	background-color: #507299;    
 	border-bottom: none;
 }
-menu .foot-ul li a .iconPosFa:hover{
+menu .foot-ul li a .iconPosFa{
 	background-color: #3b5998;    
 	border-bottom: none;
 }
-menu .foot-ul li a .iconPosIn:hover{
+menu .foot-ul li a .iconPosIn{
 	background-color: #7a36ad;    
 	border-bottom: none;
 }
 menu .foot-ul li a:hover{
 	border-bottom: none;
+}
+.myList {
+	list-style: none;
+	font-family: segoeui;
+	color: #838b89;	
+}
+.myList li{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.myList li a {
+	text-decoration: none;
+	font-family: segoeui;
+	color: #838b89;
+	font-size: 14px;
+}
+.reportHead{
+	font-family: opensans;
+	font-size: 1.5em;
+}
+.reportImg{
+	border-radius: 5px;
+	width: 220px;
+	height: 160px;
+	box-shadow: 0px 0px 1px 1px grey;
+}
+.report{
+	font-family: segoeui;
+	font-size: 14px;
+}
+.newsImg{
+	width: 360px;
+	height: 203px;
 }
